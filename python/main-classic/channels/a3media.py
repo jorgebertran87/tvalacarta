@@ -250,7 +250,7 @@ def directos(item=None):
 
     itemlist = []
     itemlist.append( Item(channel=CHANNELNAME, title="La Sexta", url="https://livepull1.secure.footprint.net/geolasextampp/master.m3u8", thumbnail="http://media.tvalacarta.info/canales/128x128/lasexta.png", category="Nacionales", action="play", folder=False ) )
-    itemlist.append( Item(channel=CHANNELNAME, title="Antena 3", url="https://livepull1.secure.footprint.net/geoantena3mpp/master.m3u8", thumbnail="http://media.tvalacarta.info/canales/128x128/antena3.png", category="Nacionales", action="play", folder=False ) )
+    itemlist.append( Item(channel=CHANNELNAME, title="Antena 3", url="https://antena3-pull2b-a3player.secure.footprint.net/antena3/bitrate_1.m3u8", thumbnail="http://media.tvalacarta.info/canales/128x128/antena3.png", category="Nacionales", action="play", folder=False ) )
     itemlist.append( Item(channel=CHANNELNAME, title="Mega", url="https://livepull1.secure.footprint.net/geomegampp/master.m3u8", thumbnail="http://media.tvalacarta.info/canales/128x128/mega.png", category="Nacionales", action="play", folder=False ) )
     itemlist.append( Item(channel=CHANNELNAME, title="Neox", url="https://livepull1.secure.footprint.net/geoneoxmpp/master.m3u8", thumbnail="http://media.tvalacarta.info/canales/128x128/neox.png", category="Nacionales", action="play", folder=False ) )
     itemlist.append( Item(channel=CHANNELNAME, title="Nova", url="https://livepull1.secure.footprint.net/geonovampp/master.m3u8", thumbnail="http://media.tvalacarta.info/canales/128x128/nova.png", category="Nacionales", action="play", folder=False ) )
